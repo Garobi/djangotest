@@ -51,7 +51,7 @@ jobs:
 
       - name: Copy files via SSH
         run: |
-          scp -o StrictHostKeyChecking=no -r ./* ubuntu@ec2-15-228-220-143.sa-east-1.compute.amazonaws.com:/home/ubuntu/airsoft_api/
+          scp -o StrictHostKeyChecking=no -r ./* ubuntu@ec2-15-228-220-143.sa-east-1.compute.amazonaws.com:/home/ubuntu/djangotest/
 
       - name: Run remote commands
         run: |
